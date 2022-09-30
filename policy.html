@@ -1,0 +1,328 @@
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			p{
+				color:black;
+				}	
+			h3{
+				color:black;
+				}		
+			#menuarea{
+				background:pink;
+				width:1300px;
+				height:50px;
+				border:none;
+				position:sticky;
+				z-index:1000;
+				top:0;
+				}
+			#menuarea ul{
+					/*list-style-type:none;
+					list-style-image:url('arr.png');
+					list-style-position:inside;*/
+					list-style:none url('arr.png') inside;
+					margin:0;
+					padding:0;
+					list-style:none;
+					}
+			#menuarea ul li{
+					float:left;
+						}
+			#menuarea ul li a:link, #menuarea ul li a:visited{
+					color:black;
+					background:pink;
+					padding:10px 25px;
+					text-decoration:none;
+					display:block;
+					}
+			#menuarea ul li a:hover{
+					color:black;
+					background:pink;
+					}
+			#menuarea ul li:last-child a:link, #menuarea ul li:last-child a:visited{
+					border-bottom:none;
+					}
+			#menuarea ul li ul{
+					display:none;
+					}
+			#menuarea ul li:hover ul{
+					display:block;
+					position:absolute;
+					z-index:1000;
+					}
+			#menuarea ul li:hover ul li{
+					float:none;
+					}
+			#menuarea ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+					border:none;
+					border-bottom:solid 1px blue;
+					}
+			#jotarea{
+					text-shadow: 0 0 5px #FF00ff;
+
+					}
+			
+			.footer2{
+				background:#161616;
+				color:#d3d3d3;
+				height:450px;
+				position:relative;
+				}
+			.footer2 .footer-content {
+				height:350px;
+				display:flex;
+				}
+			.footer2 .footer-content .footer-section{
+				flex:1;
+				padding:25px;
+				}
+			.footer2 .footer-content h1,
+			.footer2 .footer-contenth2 {
+				color:white;
+				}
+			
+			.footer2 .footer-content .about h1 span{
+				color:#05f7ff;
+				}			
+			.footer2 .footer-content .about .contact  span{
+				display:block;s
+				font-size:1.1em;
+				margin-bottom:8px;
+				}			
+			.footer2 .footer-content .about .socials a{
+				border:1px solid grey;
+				width:45px;
+				height:41px;
+				padding-top:5px;
+				margin-right:5px;
+				text-align:center;
+				display:inline-block;
+				font-size:3.1em;
+				border-radius:5px;
+				transition:all .3s;
+				}			
+			.footer2 .footer-content .about .socials a:hover{
+				border:1px solid white;
+				color:white;
+				transition:all .3s;
+				}
+			.footer2 .footer-content .links ul a{
+				display:block;
+				margin-bottom:10px;
+				font-size:1.2em;
+				transition:all .3s;
+				}
+			.footer2 .footer-content .links ul a:hover{
+				color:white;
+				margin-left:15px;
+				transition:all .3s;
+				}
+			.footer2 .footer-content .contact-form .contact-input{
+				background:#272727;
+				color:#bebdbd;
+				margin-bottom:10px;
+				line-height:1.5rem;
+				padding:0.9rem 1.4rem;
+				border:none;
+				}
+			.footer2 .footer-content .contact-form .contact-input:focus{
+				background:#lalala;
+				}
+			.btn{
+				padding:.5rem 1rem;
+				background:#006669;
+				color:white;
+				border:1px white transparent;
+				border-radius:.25rem;
+				}
+			.btn big{
+				padding:.7rem 1.3rem;
+				line-height:1.3rem; 
+				}
+			.btn:hover{
+				color:white;
+				background:#005255;
+				}
+			.footer2 .footer-content .contact-form .contact-btn{
+				float:right;
+				}
+			.footer2 .footer-bottom {
+				background:#343a40;
+				color:#686868;
+				height:50px;
+				width:100%;
+				text-align:center;
+				position:absolute;
+				bottom:0px;
+				left:0px;
+				padding-top:20px;
+				}
+			.fa {
+ 				padding: 20px;
+				font-size: 30px;
+  				width: 50px;
+  				text-align: center;
+ 				text-decoration: none;
+  				margin: 5px 2px;
+				}
+
+			.fa:hover {
+    				opacity: 0.7;
+				}
+
+			.fa-facebook {
+  				background: #3B5998;
+  				color: white;
+				}
+			.fa-youtube {
+  				background: #bb0000;
+  				color: white;
+				}
+
+			.fa-instagram {
+ 				 background:red;
+ 				 color: white;
+				}
+		</style>
+	</head>
+
+	<body>
+		<div id="jotarea">
+			<h1 align="center"><font color="#327FDB">Books<font><font color="#32AB62">Essentially</font></h1>
+		</div>
+		<div id="menuarea">
+			<table cellspacing="0" border="1px" width="100%" height="100%" valign="top">
+					<tr>
+						<td>
+							<ul>
+							<li><a href="#">CATEGORIES</a>
+							<ul>
+								<li><a href="#">fiction </a></li>
+								<li><a href="#">suspense & thriller</a></li>
+								<li><a href="#">mystery & detect</a></li>
+								<li><a href="#">romance</a></li>
+								<li><a href="#">biography & memoir</a></li>
+								<li><a href="#">children's collection</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						<td>
+							<ul>	
+							<li><a href="#">NEWS & FEATURES</a>
+							<ul>
+								<li><a href="#">profile </a></li>
+								<li><a href="#">perspectives</a></li>
+								<li><a href="#">awards</a></li>
+								<li><a href="#">in the news</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						<td>
+							<ul>	
+							<li><a href="#">AUTHORS</a>
+							<ul>
+								<li><a href="#">Stephen King </a></li>
+								<li><a href="#">Ernest Hemingway</a></li>
+								<li><a href="#">Charles Dickens</a></li>
+								<li><a href="#">J.K. Rowling </a></li>
+								<li><a href="#">William Shakespeare</a></li>
+								<li><a href="#">Agatha Christie</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						<td>
+							<ul>	
+							<li><a href="#">MORE</a>
+							<ul>
+								<li><a href="#">browse talent</a></li>
+								<li><a href="#">discover content</a></li>
+								<li><a href="#">browse collection</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+						
+						<td>
+							<ul>	
+							<li><a href="#">MAGAZINES</a>
+							<ul>
+								<li><a href="#">current issue </a></li>
+								<li><a href="#">special issue</a></li>
+								<li><a href="#">all issue</a></li>
+							</ul>
+							</li>
+							</ul>	
+						</td>
+					</tr>
+					</table>
+		</div>
+		<h1 align="center"><font color="black">Privacy Policy</font></h1>
+		<p>We respect your privacy and are committed to protecting your personal information. This notice describes our privacy policy. By visiting books_essentially.com or any Books Essentially Media LLC digital properties, you are accepting the practices described in this privacy notice.</p>
+		<h3 align="center">Information Collection</h3>
+		<p>When you visit the site, we collect basic information that does not identify individual users, including the pages visited. We then aggregate this information with thousands of other pieces of information to improve our site and make your time on the site as valuable and efficient as possible.
+
+We will not rent or sell your name, email address or personal information to any third party without your permission. However, we must cooperate fully should a situation arise where we are required by law or legal process to provide information about a customer. We do reserve the right to send emails on behalf of our partners and affiliates
+
+The amount and type of information that  Books Esssentially Media LLC gathers and stores depends on the nature of the interaction. To provide an optimal user experience,  Books Esssentially Media LLC may need to securely pass user information to affiliated third-party organizations (example, Facebook).  Books Esssentially Media LLC thoroughly vets each and every affiliated organization's privacy policies to ensure they comply with the same high standards as  Books Esssentially Media LLC.</p>
+		<h3 align="center">Information We Need</h3>
+		<p>When you order subscriptions, products, or services, we need to know your name, email address, shipping address, billing address, phone number, and credit card number with expiration date. This allows us to process and fulfill your order and to notify you of your order status. We do not store your credit card information in our database and have no access to it after processing your subscription. We ask for your phone number in the event that our customer service representatives or delivery services need to contact you about your order.
+
+We store all files uploaded for author services (example, manuscripts), personal information (example, email addresses), and project information (example, book titles) on a secure server and restrict access to only the professionals contracted to work on your project and key Kirkus personnel. Contracted professionals are required to sign non-disclosure agreements prior to working on any Kirkus projects.</p>
+		<h3 align="center">Changing Your Information</h3>
+		<p>If at any time you would like to change any information in your account, just click the Log In or My Account link. Here you can update your password, contact information, and email preferences. Be sure to click the Submit button at the bottom when you have updated your account.
+
+To remove your name from our email list, please click on the link located at the bottom of each email or edit your email option in your account.
+
+If you would like to delete your personally identifying information from  Books Esssentially Media LLC, you may do so by emailing the request to customercare@kirkus.com. Without the request of deletion, you give Books Esssentially Media LLC explicit consent to retain your personally identifying data indefinitely.
+
+Our policy is intended to provide you with the safest and most secure user experience possible. Since the law, offerings and technologies change, we reserve the right to change, modify, add or remove portions of our privacy policy at any time without prior notice. If you have further questions, please feel free to contact our Customer Service team at 800-316-9361.</p>
+	<div class="footer2">
+			<div class="footer-content">
+				<div class="footer-section about">
+					<h1 class="logo-text"><span>Books</span>Essentially</h1>
+					<p><font color="white">BooksEssentially Collections helps librarians build and continually update collections curated with both literary merit and inclusive content in mind.</font></p>
+				<div class="socials">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</div>
+				<div class="contact">
+					<i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+					<i class="fa fa-envelope"></i> &nbsp; info@booksessentially.com</span>
+				</div>
+			</div>
+				<div class="footer-section links">
+					<h2>QUICK LINKS</h2>
+					<br>
+					<ul>
+						<a href="#"><li><font color="white">NEW & FEATURE</font></li></a>
+						<a href="#"><li><font color="white">MAGAZINE</font></li></a>
+						<a href="#"><li><font color="white">ABOUT US</font></li></a>
+						<a href="#"><li><font color="white">PRIVACY POLICY</font></li></a>
+						<a href="#"><li><font color="white">CATEGORIES</font></li></a>
+					</ul>
+				</div>
+				<div class="footer-section contact-form">
+					<h2>CONTACT US</h2>
+					<br>
+					<form action="index.html" method="post">
+						<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+						<textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+						<button type="submit" class="btn btn-big contact-btn">
+							<i class="fa fa-envelope"></i>
+							Send
+						</button>
+					</form>
+				</div>
+			</div>
+			
+				<div class="footer-bottom">
+					&copy; booksessentially.com | Designed by Ayushi Singh
+				</div>
+	</body>
+</html>

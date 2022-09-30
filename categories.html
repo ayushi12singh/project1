@@ -1,0 +1,464 @@
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+			#menuarea{
+				background:pink;
+				width:1300px;
+				height:50px;
+				}
+			#menuarea ul{
+					/*list-style-type:none;
+					list-style-image:url('arr.png');
+					list-style-position:inside;*/
+					list-style:none url('arr.png') inside;
+					margin:0;
+					padding:0;
+					list-style:none;
+					}
+				#menuarea ul li{
+					float:left;
+						}
+			#menuarea ul li a:link, #menuarea ul li a:visited{
+					color:black;
+					background:pink;
+					padding:10px 25px;
+					text-decoration:none;
+					display:block;
+					border-right:solid 1px black;
+					}
+			#menuarea ul li a:hover{
+					color:black;
+					background:pink;
+					}
+			#menuarea ul li:last-child a:link, #menuarea ul li:last-child a:visited{
+					border-bottom:none;
+					}
+			#menuarea ul li ul{
+					display:none;
+					}
+			#menuarea ul li:hover ul{
+					display:block;
+					position:absolute;
+					z-index:1000;
+					}
+			#menuarea ul li:hover ul li{
+					float:none;
+					}
+			#menuarea ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+					border:none;
+					border-bottom:solid 1px blue;
+					}
+			
+			#lotarea{
+				background-color:#F9F8F4;
+				width:1300px;
+				height:500px;
+				float:left;
+				}
+				#lotarea ul li a:link,#lotarea ul li a:visited{
+					color:black;
+					background:#EAD0AD;
+					padding:10px 25px;
+					display:block;
+					}
+				#lotarea ul li a:hover{
+					color:#F4F1EA;
+					}
+				#boxarea{
+					width:1300px;
+					height:500px;
+					background:white;	
+					float:left;
+					}		
+			.box1area{
+					width:330px;
+					height:450px;
+					float:left;
+					margin:25px;
+					border:solid 10px transparent;
+					}		
+			.box1area:hover{
+						border:solid 2px rgb(0,0,0)	;
+					}
+			.bg1{
+					background:white;	
+					}		
+			.bg2{
+					background:white;	
+					}		
+			.bg3{
+					background:white;	
+					}
+				#box_area{
+					width:1300px;
+					height:500px;
+					background:white;	
+					float:left;
+					}		
+			.box1_area{
+					width:330px;
+					height:450px;
+					float:left;
+					margin:25px;
+					border:solid 10px transparent;
+					}		
+			.box1_area:hover{
+						border:solid 2px rgb(0,0,0)	;
+					}
+			.bg1{
+					background:white;	
+					}		
+			.bg2{
+					background:white;	
+					}		
+			.bg3{
+					background:white;	
+					}
+				#box1_area{
+					width:1300px;
+					height:500px;
+					background:white;	
+					float:left;
+					}		
+			.box1_area{
+					width:330px;
+					height:450px;
+					float:left;
+					margin:25px;
+					border:solid 10px transparent;
+					}		
+			.box1_area:hover{
+						border:solid 2px rgb(0,0,0)	;
+					}
+			.bg1{
+					background:white;	
+					}		
+			.bg2{
+					background:white;	
+					}		
+			.bg3{
+					background:white;	
+					}
+				#box2_area{
+					width:1300px;
+					height:500px;
+					background:white;	
+					float:left;
+					}		
+			.box2_area{
+					width:330px;
+					height:450px;
+					float:left;
+					margin:25px;
+					border:solid 10px transparent;
+					}		
+			.box2_area:hover{
+						border:solid 2px rgb(0,0,0)	;
+					}
+			.bg1{
+					background:white;	
+					}		
+			.bg2{
+					background:white;	
+					}		
+			.bg3{
+					background:white;	
+					}
+				#box3_area{
+					width:1300px;
+					height:500px;
+					background:white;	
+					float:left;
+					}		
+			.box3_area{
+					width:330px;
+					height:450px;
+					float:left;
+					margin:25px;
+					border:solid 10px transparent;
+					}		
+			.box3_area:hover{
+						border:solid 2px rgb(0,0,0)	;
+					}
+			.bg1{
+					background:white;	
+					}		
+			.bg2{
+					background:white;	
+					}		
+			.bg3{
+					background:white;	
+					}
+				#box4_area{
+					width:1300px;
+					height:500px;
+					background:white;	
+					float:left;
+					}		
+			.box4_area{
+					width:330px;
+					height:450px;
+					float:left;
+					margin:25px;
+					border:solid 10px transparent;
+					}		
+			.box4_area:hover{
+						border:solid 2px rgb(0,0,0)	;
+					}
+			.bg1{
+					background:white;	
+					}		
+			.bg2{
+					background:white;	
+					}		
+			.bg3{
+					background:white;	
+					}
+		</style>
+	</head>
+
+	<body>
+		<h1 align="center"><font color="#3C7492">Books<font><font color="#CBD495">Essentially<font></h1>
+		<div id="menuarea">
+			<ul>
+						<li><a href="#">CATEGORIES</a>
+							<ul>
+								<li><a href="#">fiction </a></li>
+								<li><a href="#">suspense & thriller</a></li>
+								<li><a href="#">mystery & detect</a></li>
+								<li><a href="#">romance</a></li>
+								<li><a href="#">biography & memoir</a></li>
+								<li><a href="#">children's collection</a></li>
+							</ul>
+							</li>
+						
+						<li><a href="#">NEWS & FEATURES</a>
+							<ul>
+								<li><a href="#">profile </a></li>
+								<li><a href="#">perspectives</a></li>
+								<li><a href="#">awards</a></li>
+								<li><a href="#">in the news</a></li>
+							</ul>
+							</li>
+						
+						<li><a href="#">MAGAZINES</a>
+							<ul>
+								<li><a href="#">current issue </a></li>
+								<li><a href="#">special issue</a></li>
+								<li><a href="#">all issue</a></li>
+							</ul>
+							</li>
+						
+						<li><a href="#">AUTHORS</a>
+							<ul>
+								<li><a href="#">Stephen King </a></li>
+								<li><a href="#">Ernest Hemingway</a></li>
+								<li><a href="#">Charles Dickens</a></li>
+								<li><a href="#">J.K. Rowling </a></li>
+								<li><a href="#">William Shakespeare</a></li>
+								<li><a href="#">Agatha Christie</a></li>
+							</ul>
+							</li>
+						
+						<li><a href="#">MORE</a>
+							<ul>
+								<li><a href="#">browse talent</a></li>
+								<li><a href="#">discover content</a></li>
+								<li><a href="#">browse collection</a></li>
+							</ul>
+							</li>
+					</ul>
+		</div>
+		<h1 align="center"><font color="black">CATEGORIES</font></h1>
+			<h2>1.FICTION</h2>
+				<div id="boxarea">			
+						<div class="box1area bg1"  align="center">
+							<img src="fic1.jpg"/>
+							<h1>IF IT BLEEDS</h1>
+							<h3>BY STEPHEN KING</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="fic2.jpg"/>
+							<h1>TO PARADISE</h1>
+							<h3>BY HANYA YANAGIHARA</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="fic3.jpg"/>
+							<h1>WHAT HAPPENED TO THE BENNETTS</h1>
+							<h3>BY LISA SCOTTOLINE</h3>
+						</div>
+					</div>
+				<div id="box_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="fic4.jpg"/>
+							<h1>CITY ON FIRE</h1>
+							<h3>BY DON WINSLOW</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="fic5.jpg"/>
+							<h1>WISH YOU HERE</h1>
+							<h3>BY JODI PICOULT</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="fic6.jpg"/>
+							<h1>HARLEM SHUFFLE</h1>
+							<h3>BY COLSON WHITEHEAD</h3>
+						</div>
+					</div>
+				<h1>2.SUSPENSE & THRILLER</h1>
+					<div id="box1_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="ts1.jpg"/>
+							<h1>THE MAID</h1>
+							<h3>BY NITA PROSE</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="ts2.jpg"/>
+							<h1>BILLY SUMMERS</h1>
+							<h3>BY STEPHEN KING</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="ts3.jpg"/>
+							<h1>WE BEGIN AT THE END</h1>
+							<h3>BY CHRIS WHITAKER</h3>
+						</div>
+					</div>
+					<div id="box1_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="ts4.jpg"/>
+							<h1>ONE BY ONE</h1>
+							<h3>BY RUTH WARE</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="ts5.jpg"/>
+							<h1>RELENTLESS</h1>
+							<h3>BY MARK GREANEY</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="ts6.jpg"/>
+							<h1>NEON PREY</h1>
+							<h3>BY JOHN SANDFORD</h3>
+						</div>
+					</div>
+				<h1>3.MYSTERY & DETECTIVE</h1>
+					<div id="box2_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="mys1.jpg"/>
+							<h1>THE LOST MAN</h1>
+							<h3>BY JANE HARPER</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="mys2.jpg"/>
+							<h1>ALL THE DEVILS ARE HERE</h1>
+							<h3>BY LOUISE PENNY</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="mys3.jpg"/>
+							<h1>THE A LIST</h1>
+							<h3>BY J.A. JANCE</h3>
+						</div>
+					</div>
+					<div id="box2_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="mys4.jpg"/>
+							<h1>THE SCORPION'S TAIL</h1>
+							<h3>BY DOUGLAS PRESTON & LINCOLN CHILD</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="mys5.jpg"/>
+							<h1>THE NIGHT FIRE</h1>
+							<h3>BY MICHAEL CONELLY</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="mys6.jpg"/>
+							<h1>AGENT RUNNING IN THE FIELD</h1>
+							<h3>BY JOHN LE CARRE</h3>
+						</div>
+					</div>
+				<h1>4.ROMANCE</h1>
+					<div id="box3_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="rom1.jpg"/>
+							<h1>HIGHLAND WARRIOR</h1>
+							<h3>BY HEATHER MCCOLLUM</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="rom2.jpg"/>
+							<h1>THE LAST LETTER</h1>
+							<h3>BY REBECCA YARROS</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="rom3.jpg"/>
+							<h1>SEASON OF THE WOLF</h1>
+							<h3>BY MARIA WALE</h3>
+						</div>
+					</div>
+					<div id="box3_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="rom4.jpg"/>
+							<h1>THE TWO-DATE RULE</h1>
+							<h3>BY TAWNA FENSKE</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="rom5.jpg"/>
+							<h1>TEN THINGS I HATE ABOUT THE DUKE</h1>
+							<h3>BY LORETTA CHASE</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="rom6.jpg"/>
+							<h1>THE MISTER</h1>
+							<h3>BY E. L. JAMES</h3>
+						</div>
+					</div>
+				<h1>5.BIOGRAPHY & MEMOIR</h1>
+					<div id="box4_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="bm1.jpg"/>
+							<h1>BECOMMING</h1>
+							<h3>BY MICHELLE OBAMA</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="bm2.jpg"/>
+							<h2>NO ONE IS TOO SMALL TO MAKE A DIFFERENCE</h2>
+							<h3>BY GRETA THUNBERG</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="bm3.jpg"/>
+							<h1>THE MAN IN THE RED COAT</h1>
+							<h3>BY JULIAN BARNES</h3>
+						</div>
+					</div>
+					<div id="box4_area">			
+						<div class="box1area bg1"  align="center">
+							<img src="bm4.jpg"/>
+							<h2>THE IMMORTAL LIFE OF HENRIETTA LACKS</h2>
+							<h3>BY REBECCA SKLOOT</h3>
+						</div>		
+						<div class="box1area bg2"  align="center">
+							<img src="bm5.jpg"/>
+							<h1>INTO THE WILD</h1>
+							<h3>BY JON KRAKAUER</h3>
+						</div>		
+						<div class="box1area bg3"  align="center">
+							<img src="bm6.jpg"/>
+							<h1>WHEN BREATHE BECOMES AIR</h1>
+							<h3>BY PAUL KALANITHI</h3>
+						</div>
+					</div>
+				<div id="lotarea"
+				<div id="lotarea">
+			<ul align="center">
+				<li><h2><a href="policy.html">PRIVACY POLICY</a></h2></li>
+				<li><h2><a href="#">CATEGORIES</a></h2></li>
+				<li><h2><a href="#">ABOUT US</a></h2></li>
+				<li><h2><a href="#">CONTACT US</a></h2></li>
+			</ul>
+			<div id="slidear">
+				<p><marquee><font color="white">© Copyright 2022 Books Essentially Media LLC. All Rights Reserved.</font></marquee></p>
+			</div>
+			<h1 align="center"><font color="white">FOLLOW US</font></h1>
+		</div>
+
+	</body>
+</html>
